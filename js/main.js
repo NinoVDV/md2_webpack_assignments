@@ -8,15 +8,32 @@
 /**
  * Opdracht 1: primitives
  * Maak voor de volgende primitives 5 goed bedachte variabelen per primitive
- * 
- * 5 variabelen met daarin een string
- * 5 variabelen met daarin een number
- * 5 variabelen met daarin een boolean
- * 
- * Geef ze een goede engelse naam en sla er iets in op wat een goed voorbeeld geeft
- * van Media Development producten (apps, sites, etc.)
- * Bijvoorbeeld een string variabele met de naam 'teacherName' en als waarde 'Berend'
  */
+
+ /**
+ * 5 variabelen met daarin een string
+ */
+var studentName = "Nino";
+var schoolName = "Mediacollege";
+var place = "Amsterdam";
+var education = "MD";
+var className = "MD2A";
+ /**
+ * 5 variabelen met daarin een number
+ */
+var studentAge = 18;
+var studentNumber = 19941;
+var studentPhonenumber = 31614824181;
+var birthYear = 1998;
+var weight = 55;
+ /**
+ * 5 variabelen met daarin een boolean
+ */
+var hasPermission = true;
+var isFemale = false;
+var isSecure = true;
+var isDangerous = false;
+var isSick = true;
 
 /**
  * Opdracht 2: Arrays
@@ -26,12 +43,20 @@
  * Bijvoorbeeld een Array met de naam 'students' en als waarde ['Berend', "Erwin']
  */
 
+ var students = ['Gerwin','Jordy','Kelvin','Wesly','Nino'];
+ var grades = ['7', '6', '10'];
+ var teachers = ['Berend', 'Ed', 'Joey'];
+
+ console.log(students.length);
+
 /**
  * Opdracht 3: Arrays push
  * Maak een lege array aan
  * push er een string in
  */
-
+var pushArray = [];
+pushArray.push('gepushte string aiiii');
+console.log(pushArray);
 /**
  * Opdracht 4: Array splice
  * Maak een array aan en vul hem met namen
@@ -77,4 +102,3 @@
  * Maak een array genaamd 'students' met daarin 10 namen van je medeleerlingen
  * Schrijf een for loop om alle namen in de Array te laten zien
  */
-
