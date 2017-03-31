@@ -188,6 +188,8 @@ String.prototype.replaceAll = function(search, replacement) {
  * splice().
  * console.log() de naam die deze functie returned
  */
+const targets = ['Yellow', 'Molrat', 'Olijf', 'Bierdrager', 'Humberto'];
+console.log(targets.random());
 
 /**
  * Opdracht 17: Custom prototype method gebruiken
@@ -196,6 +198,8 @@ String.prototype.replaceAll = function(search, replacement) {
  * op alle plekken te vervangen voor een ander woord
  * console.log() deze gewijzigde tekst
  */
+var bierdragertje = "draag bier";
+
 
 /**
  * Opdracht 18: Prototype based language
